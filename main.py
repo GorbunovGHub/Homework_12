@@ -5,10 +5,7 @@ def test():
 
 test()
 
-def test_2(a, b, c):
-    a = 5
-    b = 10
-    c = 20
+def test_2(a=5, b=10, c=20):
     print(a, b, c)
 
-test_2(1, 2, 3)
+test_2()
